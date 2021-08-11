@@ -6,7 +6,7 @@ Here we archived the scripts of the analysis carried out by the Chen Team on thi
 
 1 - Gnan, S., Matelot, M., Weiman, M., Arnaiz, O., Guérin, F., Sperling, L., Bétermier, M., Thermes, C., Chen, C.-L., and Duharcourt, S. (2021). GC content but not nucleosome positioning directly contributes to intron-splicing efficiency in Paramecium; BioRxiv [2021.08.05.455221](https://www.biorxiv.org/content/10.1101/2021.08.05.455221v1).
 
-   The folder "Gnan et al 2021" contains the codes used to create all the figures for this publication (R scripts and Jupyter Notebooks). Jupyter Noteboos have been as well saved as HTML files.
+   The folder "Gnan et al 2021" contains the codes used to create all the figures for this publication (R scripts and Jupyter Notebooks). Jupyter Notebooks have been as well saved as HTML files.
     
    Please contact the authors for any further questions: [Stefano Gnan](mailto:stefano.gnan@curie.fr) and [Chunlong Chen](mailto:chunlong.chen@curie.fr) (Institut Curie)
 
