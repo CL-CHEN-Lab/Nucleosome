@@ -8,8 +8,6 @@ samtools sort -n ${i/%.bam/_filtered.bam} -o ${i/%.bam/_filtered_sorted_name.bam
 samtools fixmate -@ 6 ${i/%.bam/_filtered_sorted_name.bam} ${i/%.bam/_filtered_sorted_name_fixedmate.bam}
 #convert bam to bedpe
 bedtools bamtobed -i ${i/%.bam/_filtered_sorted_name_fixedmate.bam} -bedpe > ${i/%.bam/_filtered_sorted_name_fixedmate.bedpe}
-# select cols
-less ${i/%.bam/_filtered_sorted_name_fixedmate.bedpe} | awk '{print $1"\t"$2"\t"$6}' > ${i/%.bam/_filtered_sorted_name_fixedmate.bed}
 
 done
 # convert into bed
